@@ -3,7 +3,7 @@ let aleatorio = parseInt(Math.random() * 10)
 let palabra = paises[aleatorio]
 let preguntas
 let respuesta
-alert('Hola, para este juego debes escribirlo sin faltas ortográficas y la primera letra debe ser en mayuscula, suerte!!!')
+alert('Hola, para este juego debes escribirlo sin faltas ortográficas y la primera letra debe ser en mayuscula, Tienes 3 oportunidades para adivinar la palabra jeje, suerte!!!')
 for(let i = 0; i <= 2; i++){
     switch (palabra)
     {
